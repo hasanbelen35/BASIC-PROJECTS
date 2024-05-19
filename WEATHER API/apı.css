@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.container {
+    border: 2px solid black;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    margin-top: 200px;
+    border-radius: 15px;
+
+    h1 {
+        color: red;
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 600
+    }
+
+    h5 {
+        color: blue;
+    }
+}
+
+#inputbox {
+    border-radius: 10px;
+    height: 30px;
+    width: 90%;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #ffffff;
+    background-color: blue;
+    width: 70%;
+
+
+}

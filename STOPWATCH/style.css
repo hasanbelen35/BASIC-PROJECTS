@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+}
+
+.container {
+  text-align: center;
+  height: 350px;
+  margin-top: 280px;
+  h1 {
+    font-weight: 800;
+    margin-top: 25px;
+  }
+}
+.watch-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.watch-container div {
+  padding: 50px;
+  font-size: 30px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+
+  button {
+    padding: 20px;
+    border-radius: 30px;
+    width: 120px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+  }
+
+  button:hover {
+    background-color: white;
+    color: black;
+  }
+}
